@@ -34,7 +34,7 @@ The Weather App is a web application that integrates with the OpenWeatherMap API
 
 4. npm start
 
-## Installation
+## Usage
 
 1. Enter the name of a city in the search input and click the "Search" button.
 
