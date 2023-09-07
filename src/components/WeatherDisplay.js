@@ -6,8 +6,12 @@ const WeatherDisplay = () => {
   const city = useSelector(state => state.city);
   const weather = useSelector(state => state.weather);
 
-  if (!city || !weather) {
-    return null;
+  if (!city) {
+    return <div>Please select a city</div>;
+  }
+
+  if (!weather) {
+    return <div>Please enter a valid city</div>;
   }
 
   return (
